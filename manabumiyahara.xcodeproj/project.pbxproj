@@ -1,0 +1,162 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56E0BA041F275362001E1BCB /* manabumiyahara.metal in Sources */ = {isa = PBXBuildFile; fileRef = 56E0BA031F275362001E1BCB /* manabumiyahara.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56E0BA001F275361001E1BCB /* manabumiyahara.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = manabumiyahara.metallib; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E0BA031F275362001E1BCB /* manabumiyahara.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = manabumiyahara.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		56E0B9F91F275361001E1BCB = {
+			isa = PBXGroup;
+			children = (
+				56E0BA021F275361001E1BCB /* manabumiyahara */,
+				56E0BA011F275361001E1BCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56E0BA011F275361001E1BCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56E0BA001F275361001E1BCB /* manabumiyahara.metallib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56E0BA021F275361001E1BCB /* manabumiyahara */ = {
+			isa = PBXGroup;
+			children = (
+				56E0BA031F275362001E1BCB /* manabumiyahara.metal */,
+			);
+			path = manabumiyahara;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56E0B9FF1F275361001E1BCB /* manabumiyahara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56E0BA071F275362001E1BCB /* Build configuration list for PBXNativeTarget "manabumiyahara" */;
+			buildPhases = (
+				56E0B9FE1F275361001E1BCB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = manabumiyahara;
+			productName = manabumiyahara;
+			productReference = 56E0BA001F275361001E1BCB /* manabumiyahara.metallib */;
+			productType = "com.apple.product-type.metal-library";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56E0B9FA1F275361001E1BCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "manabu miyahara";
+				TargetAttributes = {
+					56E0B9FF1F275361001E1BCB = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 56E0B9FD1F275361001E1BCB /* Build configuration list for PBXProject "manabumiyahara" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56E0B9F91F275361001E1BCB;
+			productRefGroup = 56E0BA011F275361001E1BCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56E0B9FF1F275361001E1BCB /* manabumiyahara */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56E0B9FE1F275361001E1BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E0BA041F275362001E1BCB /* manabumiyahara.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56E0BA051F275362001E1BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56E0BA061F275362001E1BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		56E0BA081F275362001E1BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 86X54QXHZC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56E0BA091F275362001E1BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 86X54QXHZC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56E0B9FD1F275361001E1BCB /* Build configuration list for PBXProject "manabumiyahara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E0BA051F275362001E1BCB /* Debug */,
+				56E0BA061F275362001E1BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56E0BA071F275362001E1BCB /* Build configuration list for PBXNativeTarget "manabumiyahara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E0BA081F275362001E1BCB /* Debug */,
+				56E0BA091F275362001E1BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56E0B9FA1F275361001E1BCB /* Project object */;
+}
